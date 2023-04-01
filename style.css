@@ -1,0 +1,178 @@
+body{
+    font-family: montserrat;
+}
+
+/* .top-line{
+    background-color:#2c3a475e;
+    height: 25px;
+    width: 100%;
+    padding: 0 20px 0 0;
+}
+
+.top-line p{
+    float: right;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    padding: 0 20px;
+} */
+
+nav{
+    color: rgb(0, 0, 0);
+    box-shadow: 0 1px 3px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100000;
+}
+
+nav .first-part{
+    color: #182C61;
+}
+
+nav .second-part{
+    color: #6D214F;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 90px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 500;
+    color: #182C61;
+}
+
+nav label{
+    line-height: 80px;
+    font-size: 45px;
+    font-weight: 900;
+    margin-left: 60px;
+}
+
+nav label img{
+    height: 60px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+nav label span{
+    font-family: Barlow, sans-serif;
+}
+
+
+nav a:hover{
+    color: #6D214F;
+    transition: .3s;
+}
+
+.about-company{
+    text-align: center;
+    /* background-color: #cad3c86c; */
+    padding-bottom: 60px;
+    display: block;
+    padding-top: 60px;
+}
+
+.about-company span{
+    text-transform: uppercase;
+    line-height: 300px;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#182C61;
+}
+
+.about-company p{
+    line-height: 40px;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.slide-show{
+    text-align: center;
+    background-color: #21b57227;
+}
+
+.slide-show .service img{
+    width: 100%;
+}
+
+.carousel{
+    margin: 0 90px;
+}
+
+.slide-show .col-md-12 h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.our-services{
+    margin-top: 60px;
+}
+
+.our-services h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.our-services .box{
+    background-color: #21b57227;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.box img{
+    height: 60px;
+    width: 60px;
+}
+
+.box h4{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.our-services .row .col-md-3{
+    padding: 20px;
+}
+
+.footer{
+    background-color: #2C3A47;
+    color: white;
+    height: 400px;
+    margin-top: 60px;
+}
+
+.footer .box{
+    padding: 20px;
+}
+
+.footer .map-area iframe{
+    height: 300px;
+    width: 100%;
+}
+
+.our-clients{
+    margin-top: 60px;
+}
+
+.our-clients h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
